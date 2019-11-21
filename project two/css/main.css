@@ -1,0 +1,152 @@
+
+html{
+    box-sizing: border-box;
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+body{
+    color:#343434;
+    margin: 0;
+    padding: 0;
+    background: #EFF9F0;
+}
+
+img{
+    width: 300px;
+}
+
+a{
+    color: #FFE66D;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+h2{
+    font-size: 100px;
+    line-height: 1;
+}
+
+h2{
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+h1,h2{
+    font-family: 'Caveat',cursive;
+    font-weight: 400;
+    margin: 0;
+}
+
+h3{
+    margin-bottom: 0;
+}
+
+h3~p{
+    margin: 0;
+}
+
+.content-wrap{
+    max-width: 900px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+
+/* Header */
+header{
+    background: #28262C;
+    color: white;
+    text-align: center;
+}
+
+/* Projects */
+
+.projects{
+    border: 1px solid black;
+}
+
+.projectItem{
+    display: flex;
+    border-bottom: 1px dashed black;
+    margin-bottom: 1rem;
+    padding: 25px 0;
+}
+
+.projectItem:last-of-type{
+    border-bottom: none;
+}
+
+.itemInfo{
+    margin:1rem;
+    margin-top: 0;
+}
+
+.itemInfo a{
+    background: #B8B8FF;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.itemInfo a:hover{
+    background: rgba(184, 184, 255, 80%);
+}
+
+.itemInfo h3{
+    margin-top:0;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+}
+
+/* Work expereince */
+.workExp{
+    background: #56638A;
+    color: black;
+}
+
+.jobItem{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.education{
+    background-image: url('http://lammco.com/wp-content/uploads/2015/07/Education_FS-3B-EBBS_3_Full.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    color: black;
+}
+
+/* footer */
+footer{
+    background: #335C81;
+    text-align: center;
+    color: white;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer img{
+    width: 50px;
+    height: 50px;
+}
+
+footer li{
+    margin: 1rem;
+}
